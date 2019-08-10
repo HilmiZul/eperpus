@@ -1,0 +1,96 @@
+/* 
+ * main.css
+ * e-Perpus SMK Negeri 4 Tasikmalaya
+ * Zul Hilmi
+ * 10 Agustus 2019
+ */
+
+@font-face {
+  font-family: 'Prototype';
+  src: url('../../vendor/font/Prototype.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../vendor/font/Avenir.ttc');
+  font-weight: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Avenir';
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+.font-prototype {
+  font-family: 'Prototype';
+}
+
+.font-avenir {
+  font-family: 'Avenir';
+}
+
+.abu {
+  color: rgb(230, 230, 230);
+}
+
+.rotate {
+  /* transform: skewX(7deg); */
+  transform: rotate(20deg);
+  position: relative;
+  bottom: -90px;
+}
+
+.col-lg-2 {
+  max-width: 120px;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  /* background: rgb(232, 232, 232); */
+  background: rgb(44, 69, 112);
+  /* border-bottom: 3px solid rgba(127, 127, 127, .3); */
+}
+
+.header .inner-header p {
+  font-size: 12px;
+}
+
+.header .logo {
+  width: 110px;
+}
+
+.batas-header {
+  width: 100%;
+  height: 100px;
+  background: transparent url('../gambar/batas-header.png') no-repeat center center;
+  background-size: cover;
+}
+
+.data {
+  width: 100%;
+  height: auto;
+  /* background: #ddd; */
+}
+
+.data .cover {
+  width: 50px;
+  height: auto;
+}
+
+.data .cover-preview {
+  width: 100%;
+  height: auto;
+}
+
+/* .col-lg-10 {
+  border: 1px solid #000000;
+} */
