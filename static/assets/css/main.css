@@ -29,6 +29,10 @@ html, body {
   }
 }
 
+.font-2x {
+  font-size: 20px;
+}
+
 .font-prototype {
   font-family: 'Prototype';
 }
