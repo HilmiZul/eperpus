@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'eperpus',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'passwd48',
         'HOST': 'localhost',
         'PORT': '',
     }
